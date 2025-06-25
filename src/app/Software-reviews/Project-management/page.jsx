@@ -132,17 +132,17 @@ export default function ProjectManagementPage() {
   return (
     <>
      <Head>
-        <title>Best Project Management Software for 2025 | Complete Guide.</title>
-        <meta property="og:title" content="Best Project Management Software for 2025" />
-        <meta property="og:image" content="/images/project-preview.jpg" />
-        <meta property="og:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
-        <meta property="og:image" content="/images/project-preview.jpg" />
-        <meta property="og:url" content={shareUrl} />
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Technology Advice" />
-        <meta name="twitter:card" content="summary_large_image" />
-          <link rel="canonical" href={shareUrl} />
-      </Head>
+  <title>Best Project Management Software for 2025 | Complete Guide.</title>
+  <meta property="og:title" content="Best Project Management Software for 2025" />
+  <meta property="og:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
+  <meta property="og:image" content="https://yourdomain.com/images/project-preview.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/page-path" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Technology Advice" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://yourdomain.com/page-path" />
+</Head>
+
 
       <div className="min-h-screen bg-[#0E1F1C] text-white relative overflow-hidden">
         {/* Background decorative elements */}
