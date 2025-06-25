@@ -131,19 +131,19 @@ export default function ProjectManagementPage() {
 
   return (
     <>
-     <Head>
-  <title>Best Project Management Software for 2025 | Complete Guide.</title>
-  <meta property="og:title" content="Best Project Management Software for 2025" />
-  <meta property="og:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
-  <meta property="og:image" content="http://technology-advice.vercel.app//images/project-preview.jpg" />
-
-
-  <meta property="og:url" content="https://technology-advice.vercel.app/Project-management" />
-  <meta property="og:type" content="article" />
-  <meta property="og:site_name" content="Technology Advice" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="canonical" href="https://technology-advice.vercel.app/Project-management" />
-</Head>
+    <Head>
+        <title>Best Project Management Software for 2025 | Complete Guide.</title>
+        <meta property="og:title" content="Best Project Management Software for 2025" />
+        <meta property="og:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
+        <meta property="og:image" content="https://technology-advice.vercel.app/images/project-preview.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+        <meta property="og:url" content="https://technology-advice.vercel.app/Project-management" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Technology Advice" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://technology-advice.vercel.app/Project-management" />
+      </Head>  
 
 
       <div className="min-h-screen bg-[#0E1F1C] text-white relative overflow-hidden">
