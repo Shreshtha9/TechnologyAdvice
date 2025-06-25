@@ -132,7 +132,10 @@ export default function ProjectManagementPage() {
   return (
     <>
     <Head>
-        <title>Best Project Management Software for 2025 | Complete Guide.</title>
+        <title>Best Project Management Software for 2025 | Complete Guide</title>
+        <meta name="description" content="Comprehensive guide to choosing the best project management software for your business needs." />
+
+        {/* Open Graph (Facebook + LinkedIn) */}
         <meta property="og:title" content="Best Project Management Software for 2025" />
         <meta property="og:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
         <meta property="og:image" content="https://technology-advice.vercel.app/images/project-preview.jpg" />
@@ -141,9 +144,15 @@ export default function ProjectManagementPage() {
         <meta property="og:url" content="https://technology-advice.vercel.app/software-reviews/project-management" />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Technology Advice" />
+
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Best Project Management Software for 2025" />
+        <meta name="twitter:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
+        <meta name="twitter:image" content="https://technology-advice.vercel.app/images/project-preview.jpg" />
+
         <link rel="canonical" href="https://technology-advice.vercel.app/software-reviews/project-management" />
-      </Head>  
+      </Head> 
 
 
       <div className="min-h-screen bg-[#0E1F1C] text-white relative overflow-hidden">
