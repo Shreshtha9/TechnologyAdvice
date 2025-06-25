@@ -134,6 +134,7 @@ export default function ProjectManagementPage() {
      <Head>
         <title>Best Project Management Software for 2025 | Complete Guide.</title>
         <meta property="og:title" content="Best Project Management Software for 2025" />
+        <meta property="og:image" content="/images/project-preview.jpg" />
         <meta property="og:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
         <meta property="og:image" content="/images/project-preview.jpg" />
         <meta property="og:url" content={shareUrl} />
