@@ -138,11 +138,11 @@ export default function ProjectManagementPage() {
         <meta property="og:image" content="https://technology-advice.vercel.app/images/project-preview.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
-        <meta property="og:url" content="https://technology-advice.vercel.app/Project-management" />
+        <meta property="og:url" content="https://technology-advice.vercel.app/Software-reviews/Project-management" />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Technology Advice" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://technology-advice.vercel.app/Project-management" />
+        <link rel="canonical" href="https://technology-advice.vercel.app/Software-reviews/Project-management" />
       </Head>  
 
 
