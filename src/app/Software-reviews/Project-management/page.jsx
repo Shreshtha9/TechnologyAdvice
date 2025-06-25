@@ -138,7 +138,7 @@ export default function ProjectManagementPage() {
         {/* Open Graph (Facebook + LinkedIn) */}
         <meta property="og:title" content="Best Project Management Software for 2025" />
         <meta property="og:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
-        <meta property="og:image" content="https://pinoybuilders.ph/wp-content/uploads/2021/10/grass-plant-lawn-flower-backyard-botany-1083044-pxhere.com_.jpg.jpeg" />
+        <meta property="og:image" content="https://technology-advice.vercel.app/images/project_preview.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
         <meta property="og:url" content="https://technology-advice.vercel.app/software-reviews/project-management" />
@@ -149,7 +149,7 @@ export default function ProjectManagementPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Best Project Management Software for 2025" />
         <meta name="twitter:description" content="Comprehensive guide to choosing the best project management software for your business needs." />
-        <meta name="twitter:image" content="https://technology-advice.vercel.app/images/project-preview.jpg" />
+        <meta name="twitter:image" content="https://technology-advice.vercel.app/images/project_preview.jpg" />
 
         <link rel="canonical" href="https://technology-advice.vercel.app/software-reviews/project-management" />
       </Head> 
