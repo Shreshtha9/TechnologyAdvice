@@ -28,11 +28,11 @@ const Navbar = () => {
   const softwareReviews = {
     categories: [
       { name: 'Human Resources Software', href: '/software-reviews/hr-software' },
-      { name: 'Payroll Software', href: '/software-reviews/payroll-software' },
-      { name: 'CRM Software', href: '/software-reviews/crm-software' },
+      { name: 'Payroll Software', href: '/Software-reviews/Payroll-software' },
+      { name: 'CRM Software', href: '/Software-reviews/CRM-software' },
       { name: 'Sales Software', href: '/software-reviews/sales-software' },
       { name: 'Project Management Software', href: '/Software-reviews/Project-management' },
-      { name: 'Business Intelligence Software', href: '/software-reviews/business-intelligence-software' }
+      { name: 'Business Intelligence Software', href: '/Software-reviews/Business-Intelligence-Software' }
     ]
   };
 

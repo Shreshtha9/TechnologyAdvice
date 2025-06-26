@@ -493,7 +493,7 @@ export default function ProjectManagementPage() {
     },
     wrike: {
       title: "Wrike: Most versatile project management software",
-      logo: "/images/asana.png",
+      logo: "/images/wrike-logo.png",
       button: {
         text: "Visit Website",
         link: "#",
@@ -558,18 +558,33 @@ export default function ProjectManagementPage() {
                 Highly customizable workflows
               </h4>
               <p className="text-black mb-4">
-                Wrike stands out for its versatility as project management software. Fields and labels can be adjusted easily to make sure the project meets its requirements. This level of flexibility offers a detailed visual map or representation of the workflow or project stages.
+                Wrike stands out for its versatility as project management
+                software. Fields and labels can be adjusted easily to make sure
+                the project meets its requirements. This level of flexibility
+                offers a detailed visual map or representation of the workflow
+                or project stages.
               </p>
               <h4 className="text-lg font-bold mb-2">Wrike Lock</h4>
               <p className="text-black mb-4">
-               While other PM software solutions use third-party integrations for data encryption, Wrike developed Wrike Lock, which is available as a paid add-on feature. Wrike Lock is an additional layer of encryption on top of standard encryption for workspace data and files. It uses AES-256 encryption keys, and it allows project managers to have a clear view of who is accessing the data and when. This feature enables businesses to use cloud applications with fewer worries.
+                While other PM software solutions use third-party integrations
+                for data encryption, Wrike developed Wrike Lock, which is
+                available as a paid add-on feature. Wrike Lock is an additional
+                layer of encryption on top of standard encryption for workspace
+                data and files. It uses AES-256 encryption keys, and it allows
+                project managers to have a clear view of who is accessing the
+                data and when. This feature enables businesses to use cloud
+                applications with fewer worries.
               </p>
             </>
           ),
           Pricing: (
             <>
               <p className="text-black mb-4">
-                Overall, Wrike’s pricing and plans can accommodate a wide range of users, from individuals to large organizations. Furthermore, Wrike’s Business plan offers a robust set of tools. However, its value for money might be less compelling than ClickUp’s offerings at similar or lower price points.
+                Overall, Wrike’s pricing and plans can accommodate a wide range
+                of users, from individuals to large organizations. Furthermore,
+                Wrike’s Business plan offers a robust set of tools. However, its
+                value for money might be less compelling than ClickUp’s
+                offerings at similar or lower price points.
               </p>
 
               <h4 className="text-lg font-bold mb-2">Free plan</h4>
@@ -577,7 +592,6 @@ export default function ProjectManagementPage() {
                 <li>Free forever for unlimited users.</li>
                 <li>Basic project and task management features.</li>
                 <li>Board and table views.</li>
-               
               </ul>
 
               <h4 className="text-lg font-bold mb-2">Team plan</h4>
@@ -592,12 +606,11 @@ export default function ProjectManagementPage() {
                 <li>Up to 20 free collaborators.</li>
                 <li>Gantt charts.</li>
                 <li>Automations (50 actions/user/month).</li>
-                <li>Analytics and calendar views..</li>
+                <li>Analytics and calendar views.</li>
                 <li>Use case templates..</li>
                 <li>One-click sign-in.</li>
                 <li>2 GB storage per user.</li>
                 <li>Generative AI tool.</li>
-                
               </ul>
               <h4 className="text-lg font-bold mb-2">Business plan</h4>
               <ul className="list-disc pl-5 text-black">
@@ -608,9 +621,7 @@ export default function ProjectManagementPage() {
                   Everything from the Team plan, plus:
                   <ul className="list-disc pl-5">
                     <li>Automations (200 actions/user/month).</li>
-                    <li>
-                    AI risk prediction and work creation.
-                    </li>
+                    <li>AI risk prediction and work creation.</li>
                     <li>Resource management: workloads and time tracking.</li>
                     <li>Reports and unlimited dashboards. </li>
                     <li>User groups and permissions.</li>
@@ -625,11 +636,12 @@ export default function ProjectManagementPage() {
                 <li>Requires custom pricing.</li>
 
                 <li>
-                 Everything from the Business plan, plus:
+                  Everything from the Business plan, plus:
                   <ul className="list-disc pl-5">
                     <li>Unlimited users; five users minimum</li>
                     <li>
-                     SAML-based SSO (Users can sign in just once to access both Wrike and other associated applications).
+                      SAML-based SSO (Users can sign in just once to access both
+                      Wrike and other associated applications).
                     </li>
                     <li>Two-factor authentication (2FA).</li>
                     <li>Custom access roles. </li>
@@ -643,10 +655,7 @@ export default function ProjectManagementPage() {
               <h4 className="text-lg font-bold mb-2">Pinnacle plan</h4>
               <ul className="list-disc pl-5 text-black">
                 <li>Requires custom pricing.</li>
-                <li>
-                  Everything from the Enterprise plan, plus:
-                
-                </li>
+                <li>Everything from the Enterprise plan, plus:</li>
                 <ul className="list-disc pl-5">
                   <li>Unlimited users; five users minimum</li>
                   <li>Locked spaces.</li>
@@ -655,7 +664,6 @@ export default function ProjectManagementPage() {
                   <li>Job roles.</li>
                   <li>Budgeting and billable hours.</li>
                   <li>Automations (1,500 actions/user/month).</li>
-                  
                 </ul>
               </ul>
             </>
@@ -673,9 +681,9 @@ export default function ProjectManagementPage() {
         },
       },
     },
-     Jira: {
+    Jira: {
       title: "Jira: Best Agile project management software",
-      logo: "/images/asana.png",
+      logo: "/images/Jira.png",
       button: {
         text: "Visit Website",
         link: "#",
@@ -712,37 +720,64 @@ export default function ProjectManagementPage() {
           "About Jira": (
             <>
               <p className="text-black mb-4">
-                Jira was primarily designed for software development and issue tracking. It has since evolved and developed its capabilities. Nowadays, even non-IT organizations use Jira for progress tracking and project management.
+                Jira was primarily designed for software development and issue
+                tracking. It has since evolved and developed its capabilities.
+                Nowadays, even non-IT organizations use Jira for progress
+                tracking and project management.
               </p>
-              <p>Since Jira is part of the Atlassian ecosystem, it also offers a unified user experience for users who work with multiple Atlassian tools. Jira also has advanced capabilities for supporting Agile project management methodologies through better integration with CI/CD and Agile planning tools within the Atlassian suite.
-
+              <p>
+                Since Jira is part of the Atlassian ecosystem, it also offers a
+                unified user experience for users who work with multiple
+                Atlassian tools. Jira also has advanced capabilities for
+                supporting Agile project management methodologies through better
+                integration with CI/CD and Agile planning tools within the
+                Atlassian suite.
               </p>
             </>
           ),
           "Key Features": (
             <>
-              <h4 className="text-lg font-bold mb-2">
-                Agile-focused features
-              </h4>
+              <h4 className="text-lg font-bold mb-2">Agile-focused features</h4>
               <p className="text-black mb-4">
-                In addition to offering Scrum or Kanban boards and sprint planning tools, Jira stands out as the go-to choice for Agile teams because of its Agile reporting tools. Other PM tools require third-party integrations to generate these charts and graphs, but Jira offers these reporting tools as native features.  These reporting tools help provide a detailed view of team performance through Agile-specific reports such as velocity charts, burndown charts, and cumulative flow diagrams.
+                In addition to offering Scrum or Kanban boards and sprint
+                planning tools, Jira stands out as the go-to choice for Agile
+                teams because of its Agile reporting tools. Other PM tools
+                require third-party integrations to generate these charts and
+                graphs, but Jira offers these reporting tools as native
+                features. These reporting tools help provide a detailed view of
+                team performance through Agile-specific reports such as velocity
+                charts, burndown charts, and cumulative flow diagrams.
               </p>
               <h4 className="text-lg font-bold mb-2">
                 Extensive integration options
               </h4>
               <p className="text-black mb-4">
-As part of the Atlassian ecosystem, Jira can integrate with other Atlassian products like Confluence, Bitbucket, and Trello. After setting up their Confluence accounts, Agile teams can directly link project documentation, requirements, and decision records to Jira issues and sprints. Additionally, by integrating with Atlassian’s control system, Agile teams can link commits, branches, and pull requests to Jira issues.
+                As part of the Atlassian ecosystem, Jira can integrate with
+                other Atlassian products like Confluence, Bitbucket, and Trello.
+                After setting up their Confluence accounts, Agile teams can
+                directly link project documentation, requirements, and decision
+                records to Jira issues and sprints. Additionally, by integrating
+                with Atlassian’s control system, Agile teams can link commits,
+                branches, and pull requests to Jira issues.
               </p>
-              
+
               <p className="text-black mb-4">
-              In addition to integrating within the Atlassian ecosystem, Jira can also integrate with other tools outside this suite. These include software development tools, communication platforms, tracking apps, and customer relationship management (CRM) systems.
+                In addition to integrating within the Atlassian ecosystem, Jira
+                can also integrate with other tools outside this suite. These
+                include software development tools, communication platforms,
+                tracking apps, and customer relationship management (CRM)
+                systems.
               </p>
             </>
           ),
           Pricing: (
             <>
               <p className="text-black mb-4">
-               If you manage software development teams or organizations following Agile methodologies, Jira can provide great value for your money. Jira’s features and functionalities suit these Agile frameworks, such as generating detailed Agile reports like burndown charts, velocity charts, and cumulative flow diagrams. 
+                If you manage software development teams or organizations
+                following Agile methodologies, Jira can provide great value for
+                your money. Jira’s features and functionalities suit these Agile
+                frameworks, such as generating detailed Agile reports like
+                burndown charts, velocity charts, and cumulative flow diagrams.
               </p>
 
               <h4 className="text-lg font-bold mb-2">Free plan</h4>
@@ -753,7 +788,6 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                 <li>100 email notifications per day.</li>
                 <li>2 GB file storage.</li>
                 <li>Community support. </li>
-               
               </ul>
 
               <h4 className="text-lg font-bold mb-2">Standard Plan</h4>
@@ -769,23 +803,20 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                 <li>Business hour support..</li>
                 <li>Automation (1,700 rule runs per month).</li>
                 <li>Unlimited email notifications.</li>
-                
-                
               </ul>
               <h4 className="text-lg font-bold mb-2">Premium Plan</h4>
               <ul className="list-disc pl-5 text-black">
                 <li>$1,700 billed annually for 10 users.</li>
                 <li>Up to 50,000 users.</li>
-                
+
                 <li>
                   Everything from the Standard plan, plus:
                   <ul className="list-disc pl-5">
-                    <li>Automation (1,000 rule runs per month per paid user).</li>
                     <li>
-                   Unlimited storage.
+                      Automation (1,000 rule runs per month per paid user).
                     </li>
+                    <li>Unlimited storage.</li>
                     <li>24/7 premium support.</li>
-                    
                   </ul>
                 </li>
               </ul>
@@ -794,19 +825,15 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                 <li>Requires custom pricing.</li>
                 <li>Up to 50,000 users.</li>
                 <li>
-                 Everything from the Premium plan, plus:
+                  Everything from the Premium plan, plus:
                   <ul className="list-disc pl-5">
                     <li>Multiple sites, up to 150.</li>
-                    <li>
-                    24/7 Enterprise support.
-                    </li>
+                    <li>24/7 Enterprise support.</li>
                     <li>Unlimited automation.</li>
                     <li>Advanced admin controls and security. </li>
-                    
                   </ul>
                 </li>
               </ul>
-              
             </>
           ),
           Gallery: (
@@ -822,9 +849,10 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
         },
       },
     },
-     ClickUp: {
-      title: "ClickUp: Best project management software for resource management",
-      logo: "/images/asana.png",
+    ClickUp: {
+      title:
+        "ClickUp: Best project management software for resource management",
+      logo: "/images/clickup.png",
       button: {
         text: "Visit Website",
         link: "#",
@@ -846,108 +874,122 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
       pros: [
         "Native time-tracking feature is available for all paid plans.",
         "Competitive pricing structure for mid-sized companies.",
-       
       ],
       cons: [
         "Steep learning curve.",
-        "SSome integrations only offer basic connectivity.",
+        "Some integrations only offer basic connectivity.",
       ],
       why: {
-        intro: `I chose Wrike because of its ability to adapt to different business models and project management strategies. This versatility makes it a perfect choice for project managers handling multiple projects simultaneously. Even though some users think the platform’s aesthetic is a bit lackluster, Wrike contains features essential for keeping track of tasks, deliverables, and progress.`,
+        intro: `I chose ClickUp because it demonstrates strength in resource management, which is integral to project management. Its native time tracking and extensive reporting features help project managers streamline workflow and effectively monitor resource utilization and project progress.`,
 
-        outro: `While Asana offers a streamlined, high-level interface for work management, Wrike provides a granular and detailed way of resource allocation.`,
+        outro: `
+Despite drawbacks, such as the lack of phone support and limited mobile app functionality, ClickUp is still a great contender because of its advanced time-tracking feature that can help you allocate and manage resources efficiently.`,
 
         extras: {
-          "About Wrike": (
+          "About ClickUp": (
             <>
               <p className="text-black mb-4">
-                Wrike provides robust task management features, real-time
-                analytics, and reports within a simple, neat-looking platform.
-                You can also rename the fields within a project or duplicate an
-                existing project’s format as a template. Its flexibility makes
-                it a versatile tool catering to various business needs. It can
-                also support the waterfall PM framework and Agile methodologies
-                such as Scrum and Kanban.
+                ClickUp is a cloud-based project management software initially
+                developed as a team management platform. After further software
+                development, ClickUp now offers features that enhance work and
+                task management, making it a sound choice for streamlining
+                workflows. With its highly customizable user interface (UI),
+                ClickUp consolidates various work management and collaboration
+                tools into a single interface.
               </p>
             </>
           ),
           "Key Features": (
             <>
-              <h4 className="text-lg font-bold mb-2">
-                Interactive Gantt charts
-              </h4>
+              <h4 className="text-lg font-bold mb-2">Native time tracking</h4>
               <p className="text-black mb-4">
-                Wrike’s Gantt chart feature is highly interactive and allows
-                users to create, adjust, and link tasks directly within the
-                chart. Wrike’s interactive Gantt charts can easily identify task
-                durations, dependencies, and milestones through intuitive
-                drag-and-drop actions. Additionally, Wrike’s Gantt chart can
-                also perform a critical path analysis and highlight the sequence
-                of tasks that directly impact the project’s completion date.
+                ClickUp’s native time tracking, which is available on all paid
+                plans, helps teams monitor time spent on specific tasks. While
+                monday.com offers native time tracking with basic
+                functionalities, ClickUp’s time tracking is configurable and
+                offers advanced capabilities. It allows users to manually input
+                time entries and create custom statuses, workflows, and
+                time-tracking settings specific to their project needs.
+              </p>
+              <p className="text-black mb-4">
+                This feature is helpful for companies that need to keep track of
+                billable hours. Some examples include creative agencies,
+                software development teams, and legal services. Native time
+                tracking also enhances resource management by helping you
+                accurately allocate resources and monitor ongoing tasks in real
+                time.
               </p>
               <h4 className="text-lg font-bold mb-2">
-                Highly customizable workflows
+                Comprehensive reporting
               </h4>
               <p className="text-black mb-4">
-                Wrike stands out for its versatility as project management software. Fields and labels can be adjusted easily to make sure the project meets its requirements. This level of flexibility offers a detailed visual map or representation of the workflow or project stages.
-              </p>
-              <h4 className="text-lg font-bold mb-2">Wrike Lock</h4>
-              <p className="text-black mb-4">
-               While other PM software solutions use third-party integrations for data encryption, Wrike developed Wrike Lock, which is available as a paid add-on feature. Wrike Lock is an additional layer of encryption on top of standard encryption for workspace data and files. It uses AES-256 encryption keys, and it allows project managers to have a clear view of who is accessing the data and when. This feature enables businesses to use cloud applications with fewer worries.
+                ClickUp offers reporting features that are well-suited to many
+                different types of teams. You can quickly generate detailed
+                reports based on project progress, team performance, and
+                resource allocation. After you generate these reports, ClickUp
+                can export them in PDF, CSV, and Excel formats. Combining this
+                functionality with its native time-tracking feature gives
+                ClickUp an edge in demonstrating distinction over its
+                competitors.
               </p>
             </>
           ),
           Pricing: (
             <>
               <p className="text-black mb-4">
-                Overall, Wrike’s pricing and plans can accommodate a wide range of users, from individuals to large organizations. Furthermore, Wrike’s Business plan offers a robust set of tools. However, its value for money might be less compelling than ClickUp’s offerings at similar or lower price points.
+                Considering the comprehensive features this PM tool offers (even
+                in its free plan), ClickUp stands out for its affordability.
+                Additionally, ClickUp’s Enterprise plan is worth considering for
+                its flexibility and comprehensive feature set at potentially
+                lower costs than its competitors.
               </p>
 
               <h4 className="text-lg font-bold mb-2">Free plan</h4>
               <ul className="list-disc pl-5 text-black mb-4">
-                <li>Free forever for unlimited users.</li>
-                <li>Basic project and task management features.</li>
-                <li>Board and table views.</li>
-               
+                <li>Free forever, unlimited free plan members.</li>
+                <li>100 MB storage.</li>
+                <li>Unlimited tasks.</li>
+                <li>Collaborative documents and whiteboards.</li>
+                <li>Real-time chat.</li>
+                <li>Kanban board view and calendar view.</li>
+                <li>Sprint management.</li>
+                <li>In-app video recording.</li>
+                <li>24/7 support.</li>
               </ul>
 
-              <h4 className="text-lg font-bold mb-2">Team plan</h4>
+              <h4 className="text-lg font-bold mb-2">Unlimited plan</h4>
               <ul className="list-disc pl-5 text-black mb-4">
-                <li>$10.00 per user per month (billed annually).</li>
-                <li>14-day free trial available, no credit card required.</li>
-                <li>Everything from the Free plan, plus:</li>
+                <li>$7 per user per month (billed annually).</li>
+                <li>14-day free trial; no credit card required.</li>
+                <li>Everything in the Free plan, plus:</li>
               </ul>
               <ul className="list-disc pl-5 text-black mb-4">
-                <li>Unlimited projects, tasks, and subtasks.</li>
-                <li>Unlimited custom fields and request forms.</li>
-                <li>Up to 20 free collaborators.</li>
+                <li>Unlimited storage and integrations.</li>
+                <li>Gantt charts..</li>
+                <li>Unlimited custom fields.</li>
                 <li>Gantt charts.</li>
-                <li>Automations (50 actions/user/month).</li>
-                <li>Analytics and calendar views..</li>
-                <li>Use case templates..</li>
-                <li>One-click sign-in.</li>
-                <li>2 GB storage per user.</li>
-                <li>Generative AI tool.</li>
-                
+                <li>
+                  Email in ClickUp (send and receive emails directly within a
+                  task).
+                </li>
+                <li>Native time tracking and resource management.</li>
+                <li>Agile reporting.</li>
+                <li>Compatible with AI add-on ($7 per user per month).</li>
               </ul>
               <h4 className="text-lg font-bold mb-2">Business plan</h4>
               <ul className="list-disc pl-5 text-black">
-                <li>$25 per user, per month (billed annually).</li>
-                <li>5–200 users.</li>
-                <li>14-day free trial available, no credit card required. </li>
+                <li>$12 per user per month (billed annually).</li>
+                <li>14-day free trial; no credit card required.</li>
+
                 <li>
-                  Everything from the Team plan, plus:
+                  Everything in the Unlimited plan, plus:
                   <ul className="list-disc pl-5">
-                    <li>Automations (200 actions/user/month).</li>
-                    <li>
-                    AI risk prediction and work creation.
-                    </li>
-                    <li>Resource management: workloads and time tracking.</li>
-                    <li>Reports and unlimited dashboards. </li>
-                    <li>User groups and permissions.</li>
-                    <li>DAM Integrations and Cloud Content Connector. </li>
-                    <li>Adobe Creative Cloud Extensions. </li>
-                    <li>5 GB storage per user. </li>
+                    <li>Unlimited teams.</li>
+                    <li>Advanced time tracking.</li>
+                    <li>Timesheet and workload management.</li>
+                    <li>Timelines and mind maps. </li>
+                    <li>Custom exporting.</li>
+                    <li>Advanced automations. </li>
                   </ul>
                 </li>
               </ul>
@@ -956,38 +998,15 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                 <li>Requires custom pricing.</li>
 
                 <li>
-                 Everything from the Business plan, plus:
+                  Everything in the Business plan, plus:
                   <ul className="list-disc pl-5">
-                    <li>Unlimited users; five users minimum</li>
-                    <li>
-                     SAML-based SSO (Users can sign in just once to access both Wrike and other associated applications).
-                    </li>
-                    <li>Two-factor authentication (2FA).</li>
-                    <li>Custom access roles. </li>
-                    <li>Customizable user types.</li>
-                    <li> Admin permissions.</li>
-                    <li>Automations (1000 actions/user/month).</li>
-                    <li>10 GB storage per user.</li>
+                    <li>Advanced permissions.</li>
+                    <li>Default personal views.</li>
+                    <li>Custom capacity in workload</li>
+                    <li>Enterprise API.</li>
+                    <li>Live onboarding training.</li>
                   </ul>
                 </li>
-              </ul>
-              <h4 className="text-lg font-bold mb-2">Pinnacle plan</h4>
-              <ul className="list-disc pl-5 text-black">
-                <li>Requires custom pricing.</li>
-                <li>
-                  Everything from the Enterprise plan, plus:
-                
-                </li>
-                <ul className="list-disc pl-5">
-                  <li>Unlimited users; five users minimum</li>
-                  <li>Locked spaces.</li>
-                  <li>Advanced reporting and BI.</li>
-                  <li>Team utilization and performance dashboard.</li>
-                  <li>Job roles.</li>
-                  <li>Budgeting and billable hours.</li>
-                  <li>Automations (1,500 actions/user/month).</li>
-                  
-                </ul>
               </ul>
             </>
           ),
@@ -1837,16 +1856,15 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
               {/* what are best project management tools */}
               <section id="best-pm-software">
                 {/* Common Heading */}
-                
-                  <h1 className="text-3xl font-bold mt-4 text-black mb-2">
-                    What is the best project management software?
-                  </h1>
-                  <p className="text-gray-700 mt-2">
-                    Here are our top recommendations for project management
-                    software in 2025.
-                  </p>
-                
-                
+
+                <h1 className="text-3xl font-bold mt-4 text-black mb-2">
+                  What is the best project management software?
+                </h1>
+                <p className="text-gray-700 mt-2">
+                  Here are our top recommendations for project management
+                  software in 2025.
+                </p>
+
                 {/* Map through the tools array */}
                 {toolsArray.map((tool) => (
                   <div
@@ -1973,7 +1991,6 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                       )}
                   </div>
                 ))}
-                   
               </section>
 
               {/* find your prodoct management software */}
@@ -2123,7 +2140,7 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                 </div>
               </section>
 
-              {/* products details */}
+              {/* ZOHO  products details */}
 
               <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
                 <div className="p-6  md:p-8 lg:p-10">
@@ -2225,6 +2242,830 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                   </div>
                 </div>
               </div>
+
+              {/* 2-Plan products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/2-plan.png" // Replace with your actual logo path
+                          alt="2-Plan Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          2-Plan
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Medium (250-999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Enterprise (5,000+ Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Large (1,000-4,999 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      2-plan, a German company, has developed free project
+                      management software with many modules for business owners
+                      to track and manage all aspects of their business with
+                      greater efficacy. TechnologyAdvice can let prospective
+                      users engage with a free online demo, allowing for more
+                      thorough evaluation before they download one of 2-plan's
+                      project management software solutions.
+                    </p>
+
+                    <Link
+                      href="/learn-more/zoho-projects"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About 2-Plan
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.2-plan.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* 24SevenOffice  products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/24seven.png" // Replace with your actual logo path
+                          alt=" 24SevenOffice Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          24SevenOffice
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Medium (250-999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Enterprise (5,000+ Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Large (1,000-4,999 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      24SevenOffice is optimized for companies that need a
+                      powerful, customizable project management solution.
+                      24SevenOffice is versatile and powerful enough that many
+                      businesses consider the product to be a full enterprise
+                      resource planning (ERP) solution.
+                    </p>
+
+                    <Link
+                      href="/learn-more/24SevenOffice"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About 24SevenOffice
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.24sevenoffice.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* 4castplus  products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/4cast.png" // Replace with your actual logo path
+                          alt="4castplus Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          4castplus
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Medium (250-999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Enterprise (5,000+ Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Large (1,000-4,999 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      4castplus brings end-to-end project controls, procurement,
+                      and construction management capabilities in a web and
+                      cloud-based platform. It empowers construction, energy,
+                      utilities, and EPC companies to move from difficult
+                      spreadsheet-based management of large complex projects
+                      into an organized solution that keeps projects on budget,
+                      on schedule, and under control.
+                    </p>
+
+                    <Link
+                      href="/learn-more/4castplus"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About 4castplus
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.4castplus.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* 5day.io  products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/5day.png" // Replace with your actual logo path
+                          alt="5day.io Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          5day.io
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Micro (0-49 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      Managing projects is tough. And tools out there are
+                      complex beyond reason. 5day.io is a modern work management
+                      tool that makes managing projects, tasks, and
+                      collaboration easy.
+                    </p>
+
+                    <Link
+                      href="/learn-more/5day-io"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About 5day.io
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.zoho.com/projects/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* 5PM-Disarea products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/5pm.jpg" // Replace with your actual logo path
+                          alt="5pm-Disarea Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          5pm-Disarea
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Medium (250-999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Enterprise (5,000+ Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Large (1,000-4,999 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      5pm is a web-based project management software solution
+                      that helps employees manage projects, tasks, notes, files,
+                      and time through an easily accessible cloud platform.
+                      Accessed through a customizable interface, 5pm also offers
+                      email integration, report generation, and an interactive
+                      drag-and-drop timeline with a Gantt-style view
+                    </p>
+
+                    <Link
+                      href="/learn-more/zoho-projects"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About 5pm-Disarea
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.5pmweb.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Accelo  products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/accelo.png" // Replace with your actual logo path
+                          alt="Accelo Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          Accelo
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Medium (250-999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Enterprise (5,000+ Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Large (1,000-4,999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Small (50-249 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      Accelo is a comprehensive Professional Services Automation
+                      (PSA) platform designed to help service organizations
+                      streamline operations, manage projects, and improve
+                      profitability. By centralizing business processes, it
+                      provides full visibility, real-time insights, and
+                      automation, helping teams deliver work more efficiently
+                      and detect issues early. Accelo supports scalability and
+                      enables growth with integrated solutions for project,
+                      client, and financial management from quote-to-cash
+                    </p>
+
+                    <Link
+                      href="/learn-more/zoho-projects"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About Accelo
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.accelo.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* AccuLynx  products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/acculynx.jpg" // Replace with your actual logo path
+                          alt="AccuLynx Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          AccuLynx
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Micro (0-49 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Medium (250-999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Enterprise (5,000+ Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Large (1,000-4,999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Small (50-249 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      AccuLynx is a business management cloud-based CRM designed
+                      for the roofing, gutter, siding, windows, and other
+                      exterior construction trades
+                    </p>
+
+                    <Link
+                      href="/learn-more/zoho-projects"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About AccuLynx
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.acculynx.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* AceProject  products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/aceproject.png" // Replace with your actual logo path
+                          alt="AceProject Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          AceProject
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Good For Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-sm sm:text-base md:text-lg">
+                      <span className="font-semibold text-gray-700">
+                        Good for:
+                      </span>
+                      <div className="flex flex-wrap items-center gap-1">
+                        <span className="text-gray-600">
+                          Medium (250-999 Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Enterprise (5,000+ Employees),
+                        </span>
+                        <span className="text-gray-600">
+                          Large (1,000-4,999 Employees),
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      AceProject features a simple, intuitive input design and a
+                      visually rich interface, while still offering the
+                      capabilities and powerful features one expects in a
+                      sophisticated project management tool.
+                    </p>
+
+                    <Link
+                      href="/learn-more/zoho-projects"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About AceProject
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.aceproject.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Aconex  products details */}
+              <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 sm:p-8 transition-shadow duration-300 overflow-hidden">
+                <div className="p-6  md:p-8 lg:p-10">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      {/* Logo */}
+                      <div className="flex-shrink-0">
+                        <Image
+                          src="/images/aconex.jpg" // Replace with your actual logo path
+                          alt="Aconex Logo"
+                          width={80}
+                          height={80}
+                          className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                          priority
+                        />
+                      </div>
+
+                      {/* Title and Review Link */}
+                      <div className="min-w-0 flex-1">
+                        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-1 sm:mb-2">
+                          Aconex
+                        </h1>
+                        <Link
+                          href="/reviews/zoho-projects"
+                          className="text-sm sm:text-base md:text-lg text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 font-medium"
+                        >
+                          Leave a Review
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Compare Button */}
+                    <div className="flex-shrink-0">
+                      <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 text-sm sm:text-base md:text-lg font-semibold text-blue-600 hover:text-blue-800 border border-blue-600 hover:border-blue-800 rounded-lg hover:bg-blue-50 transition-all duration-200 group">
+                        <Plus className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-90 transition-transform duration-200" />
+                        Compare
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Description Section */}
+                  <div className="mb-6 sm:mb-8">
+                    <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
+                      Aconex is a construction collaboration software platform
+                      used by field management, construction, and engineering
+                      firms.
+                    </p>
+
+                    <Link
+                      href="/learn-more/zoho-projects"
+                      className="text-sm sm:text-base md:text-lg text-green-600 hover:text-green-800 hover:underline transition-colors duration-200 font-semibold"
+                    >
+                      Learn More About Aconex
+                    </Link>
+                  </div>
+
+                  {/* Visit Website Button */}
+                  <div className="flex justify-end">
+                    <Link
+                      href="https://www.aconex.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl sm:rounded-2xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] group"
+                    >
+                      Visit Website
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               {/* Common Features Section */}
               <section id="common-features" className="mt-8 max-w-7xl mx-auto">
                 {" "}
@@ -2295,6 +3136,47 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                     </p>
                   </div>
                 </div>
+                {/* Forecasting Section */}
+                <div>
+                  {/* Forecasting Heading */}
+                  <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+                    Scheduling
+                  </h2>
+
+                  {/* Forecasting Paragraph */}
+                  <p className="text-base sm:text-sm md:text-lg lg:text-lg text-gray-700 leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed">
+                    Forecasting features in PM tools use data from previous
+                    projects to predict the time and resource management
+                    considerations the team will need to complete the project.
+                    This project manager software feature helps project managers
+                    calculate the ROI of a project before significant resources
+                    have been invested. Forecasting takes into account the time
+                    spent on each task and the resources required to complete
+                    each task relative to the organization’s budget constraints
+                    and revenue goals. A forecasting tool can also predict
+                    project risks and limitations that might potentially pose
+                    issues down the line.
+                  </p>
+                </div>
+                {/* Resource management Section */}
+                <div>
+                  {/* Resource management Heading */}
+                  <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+                    Resource management
+                  </h2>
+
+                  {/* Resource mangement Paragraph */}
+                  <p className="text-base sm:text-sm md:text-lg lg:text-lg text-gray-700 leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed">
+                    Similar to forecasting, resource management features in
+                    project management software help project managers visualize
+                    where their business invests time, energy, and materials so
+                    the business can assess or change their plan when unforeseen
+                    challenges arise. It can be time-consuming to enter and set
+                    up a detailed inventory of company and human resources, but
+                    doing so allows project managers to anticipate bottlenecks
+                    and allocate resources.
+                  </p>
+                </div>
               </section>
 
               {/* How-to-choose */}
@@ -2331,6 +3213,42 @@ As part of the Atlassian ecosystem, Jira can integrate with other Atlassian prod
                       Clearly define your project’s scope, complexity, and
                       specific needs. This understanding helps you identify a
                       tool that aligns with the project’s goals and challenges.
+                    </p>
+                  </div>
+                  
+                  {/* Identify must-have features*/}
+                  <div>
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+                      Identify must-have features
+                    </h2>
+
+                    {/* Identify must-have features */}
+                    <p className="text-base sm:text-sm md:text-lg lg:text-lg text-gray-700 leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed">
+                      Determine the essential features your project cannot do without. These may include task management, time tracking, or reporting capabilities, depending on the nature of your project.
+                    </p>
+                  </div>
+                  
+                  {/* Evaluate team size and collaboration needs */}
+                  <div>
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+                     Evaluate team size and collaboration needs
+                    </h2>
+
+                    {/* Evaluate team size and collaboration needs Paragraph */}
+                    <p className="text-base sm:text-sm md:text-lg lg:text-lg text-gray-700 leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed">
+                      Consider how your team communicates and collaborates. Look for tools that support these needs through integrated chat functions, file sharing, or collaborative workspaces.
+                    </p>
+                  </div>
+                  
+                  {/* Understand project requirements */}
+                  <div>
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+                     Consider integration capabilities
+                    </h2>
+
+                    {/* Consider integration capabilities paragraph */}
+                    <p className="text-base sm:text-sm md:text-lg lg:text-lg text-gray-700 leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed">
+                      Assess the need for the PM tool to integrate with other software your team uses. Seamless integration can significantly improve workflow efficiency.
                     </p>
                   </div>
                 </div>
