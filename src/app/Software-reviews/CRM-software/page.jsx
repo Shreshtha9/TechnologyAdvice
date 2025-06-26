@@ -62,18 +62,18 @@ export default function ProjectManagementPage() {
   ]);
 
   const toggleSection = (sectionKey, labelKey) => {
-    setExpandedSections((prev) => ({
-      ...prev,
-      [sectionKey]: !prev[sectionKey],
-    }));
+  setExpandedSections(prev => ({
+    ...prev,
+    [sectionKey]: !prev[sectionKey],
+  }));
 
-    setActiveSection((prev) => (prev === sectionKey ? null : sectionKey));
-    setOpenSection((prev) => (prev === labelKey ? null : labelKey));
-  };
-  const toggleItem = (index) => {
-    setOpenItems((prev) => ({
+  setActiveSection(prev => (prev === sectionKey ? null : sectionKey));
+  setOpenSection(prev => (prev === labelKey ? null : labelKey));
+};
+ const toggleItem = (index) => {
+    setOpenItems(prev => ({
       ...prev,
-      [index]: !prev[index],
+      [index]: !prev[index]
     }));
   };
 
@@ -85,6 +85,7 @@ export default function ProjectManagementPage() {
     window.addEventListener("resize", checkMobile);
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
+    
 
   useEffect(() => {
     const handleScroll = () => {
@@ -117,8 +118,7 @@ export default function ProjectManagementPage() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
- const toolsContent = {
-  monday: {
+  const content = {
     title: "monday.com: Best overall project management software",
     logo: "/images/monday.png",
     button: {
@@ -147,7 +147,7 @@ export default function ProjectManagementPage() {
     cons: [
       "May not be ideal for small teams due to its cost and complexity.",
       "Steep learning curve.",
-      "Mobile app's limitations on generating and viewing reports.",
+      "Mobile app’s limitations on generating and viewing reports.",
     ],
     why: {
       intro: `I chose monday.com for its essential features that efficiently support project management. It offers functionalities that streamline processes and help secure effective project oversight and coordination. Its highly customizable workflow will allow you to tailor the software to your needs:`,
@@ -160,138 +160,36 @@ export default function ProjectManagementPage() {
       extras: {
         "About monday.com":
           "monday.com can help you streamline tasks, deadlines, and deliverables. It was initially created as a collaboration tool and eventually evolved into a comprehensive platform that can perform various project management functions. Nowadays, it is a leading tool for managing workflows, monitoring project progress, and improving communication. monday.com also offers other products including a CRM, making it one of the best CRM and project management software on the market today.",
-        "Key Features":
-          "monday.com offers customizable dashboards, automation recipes, timeline views, and Gantt charts. Its intuitive interface allows teams to track projects visually with multiple viewing options including Kanban, calendar, and map views. The platform also includes time tracking, document sharing, and advanced reporting capabilities.",
-        "Pricing":
-          "monday.com offers a free plan for up to 2 users. Paid plans start at $8/user/month (billed annually) for the Basic plan, $10/user/month for Standard, and $16/user/month for Pro. Enterprise pricing is available for larger organizations with custom needs.",
       },
     },
-  },
-  asana: {
-    title: "Asana: Best for ease of use",
-    logo: "/images/asana.png",
-    button: {
-      text: "Visit Website",
-      link: "#",
-    },
-    scores: [
-      { label: "User reviews", score: "4.5/5" },
-      { label: "General features", score: "4.2/5" },
-      { label: "Pricing", score: "4.3/5" },
-      { label: "Interface", score: "4.7/5" },
-      { label: "Task management", score: "4.6/5" },
-      { label: "Integrations", score: "4.4/5" },
-      { label: "Automation", score: "4.1/5" },
-      { label: "Project planning and scheduling", score: "4.3/5" },
-      { label: "Collaboration tools", score: "4.5/5" },
-      { label: "Resource management", score: "3.8/5" },
-      { label: "Reporting and analytics", score: "4.0/5" },
-      { label: "User security and permissions", score: "4.2/5" },
-    ],
-    pros: [
-      "Intuitive interface with minimal learning curve",
-      "Excellent for simple project tracking",
-      "Great free plan for small teams",
-    ],
-    cons: [
-      "Limited reporting capabilities in lower tiers",
-      "Not ideal for complex projects",
-      "Advanced features require premium plans",
-    ],
-    why: {
-      intro: `I selected Asana for its exceptional user experience and simplicity. It's perfect for teams that need to get up and running quickly with a project management tool without extensive training:`,
-      bullets: [
-        "Clean, intuitive interface makes onboarding new team members effortless",
-        "Flexible task views (list, board, timeline) adapt to different workflows",
-        "Excellent mobile experience keeps teams connected on the go",
-      ],
-      outro: `While Asana may lack some advanced features found in more complex tools, its ease of use makes it the best choice for teams that prioritize simplicity and quick adoption.`,
-      extras: {
-        "About Asana":
-          "Asana is known for its clean interface and straightforward approach to task management. Originally created by Facebook co-founder Dustin Moskovitz, Asana focuses on helping teams organize, track, and manage their work without unnecessary complexity.",
-        "Key Features":
-          "Asana offers task assignments, due dates, project timelines, portfolios, and custom fields. Its Timeline view provides a Gantt-like experience for project planning. The platform integrates with many popular tools like Slack, Google Drive, and Microsoft Teams.",
-        "Pricing":
-          "Asana offers a generous free plan for up to 15 users. Premium plans start at $10.99/user/month (billed annually) for more advanced features. Business and Enterprise plans are available for larger teams with more complex needs.",
-      },
-    },
-  },
-  wrike: {
-    title: "Wrike: Most versatile project management software",
-    logo: "/images/wrike.png",
-    button: {
-      text: "Visit Website",
-      link: "#",
-    },
-    scores: [
-      { label: "User reviews", score: "4.3/5" },
-      { label: "General features", score: "4.5/5" },
-      { label: "Pricing", score: "3.8/5" },
-      { label: "Interface", score: "4.1/5" },
-      { label: "Task management", score: "4.6/5" },
-      { label: "Integrations", score: "4.4/5" },
-      { label: "Automation", score: "4.3/5" },
-      { label: "Project planning and scheduling", score: "4.7/5" },
-      { label: "Collaboration tools", score: "4.2/5" },
-      { label: "Resource management", score: "4.5/5" },
-      { label: "Reporting and analytics", score: "4.6/5" },
-      { label: "User security and permissions", score: "4.4/5" },
-    ],
-    pros: [
-      "Highly customizable for different workflows",
-      "Excellent reporting and analytics",
-      "Strong resource management features",
-    ],
-    cons: [
-      "Steeper learning curve than simpler tools",
-      "Can be overwhelming for small teams",
-      "Pricing gets expensive at higher tiers",
-    ],
-    why: {
-      intro: `Wrike stands out for its flexibility and ability to adapt to various project management methodologies. I recommend it for teams that need a tool that can grow with their evolving needs:`,
-      bullets: [
-        "Customizable dashboards and workflows suit different team structures",
-        "Powerful reporting provides deep insights into project performance",
-        "Time tracking and resource management help optimize team capacity",
-      ],
-      outro: `While Wrike requires more setup than simpler tools, its versatility makes it worth the investment for teams with complex or changing requirements.`,
-      extras: {
-        "About Wrike":
-          "Wrike is a robust work management platform that supports everything from simple task tracking to complex project portfolios. Its flexibility makes it popular among marketing teams, professional services, and product development groups.",
-        "Key Features":
-          "Wrike offers interactive Gantt charts, custom request forms, time tracking, workload management, and advanced reporting. Its proofing and approval features are particularly useful for creative teams. Real-time collaboration keeps distributed teams aligned.",
-        "Pricing":
-          "Wrike offers a free plan with basic features. Professional plans start at $9.80/user/month (billed annually). Business and Enterprise plans with more advanced features are available for larger teams.",
-      },
-    },
-  },
-};
+  };
+
 
   const faqData = [
-    {
-      question: "What are the benefits of using project management tools?",
-      answer:
-        "The benefits of using project management tools include improved organization, increased efficiency, enhanced collaboration, and better visibility into project progress.",
-    },
-    {
-      question: "How does project management software improve productivity?",
-      answer:
-        "It streamlines task coordination and resource management, provides real-time data and analytics, and helps complete projects efficiently and within budget.",
-    },
-    {
-      question:
-        "What are the cost considerations when choosing project management software?",
-      answer:
-        "Costs for project management software can vary based on features, the number of users, and the deployment type. It’s essential to consider both upfront costs and long-term value when selecting a tool.",
-    },
-    {
-      question: "What is the job of a project manager?",
-      answer:
-        "Project managers are responsible for the entire project from beginning to end and coordinate between different teams or departments. Project managers handle all aspects of the project, such as setting goals and timelines, creating budgets, delegating tasks, and communicating with stakeholders.",
-    },
-    {
-      question: "What are the five basics of project management?",
-      answer: `
+  {
+    question: "What are the benefits of using project management tools?",
+    answer:
+      "The benefits of using project management tools include improved organization, increased efficiency, enhanced collaboration, and better visibility into project progress.",
+  },
+  {
+    question: "How does project management software improve productivity?",
+    answer:
+      "It streamlines task coordination and resource management, provides real-time data and analytics, and helps complete projects efficiently and within budget.",
+  },
+  {
+    question:
+      "What are the cost considerations when choosing project management software?",
+    answer:
+      "Costs for project management software can vary based on features, the number of users, and the deployment type. It’s essential to consider both upfront costs and long-term value when selecting a tool.",
+  },
+  {
+    question: "What is the job of a project manager?",
+    answer:
+      "Project managers are responsible for the entire project from beginning to end and coordinate between different teams or departments. Project managers handle all aspects of the project, such as setting goals and timelines, creating budgets, delegating tasks, and communicating with stakeholders.",
+  },
+  {
+    question: "What are the five basics of project management?",
+    answer: `
       There are five basic principles of success that you should follow to avoid project management mistakes:
       <ol>
         <li>Address questions and concerns at the beginning of the project.</li>
@@ -301,18 +199,20 @@ export default function ProjectManagementPage() {
         <li>Double-check that all deliverables have been met before finalizing the project.</li>
       </ol>
     `,
-    },
-    {
-      question: "What tools do project managers use?",
-      answer:
-        "Project managers use many tools to ensure their projects stay on track, such as time trackers, budgeting tools, meeting agendas, calendars, email, and more. The best project management software combines all these tools into one centralized platform so that project managers only have to use one login to access them all.",
-    },
-    {
-      question: "How many phases are there in project management?",
-      answer:
-        "There are five phases in the project management life cycle: initiation, planning, execution, monitoring, and closure five phases of project management.",
-    },
-  ];
+  },
+  {
+    question: "What tools do project managers use?",
+    answer:
+      "Project managers use many tools to ensure their projects stay on track, such as time trackers, budgeting tools, meeting agendas, calendars, email, and more. The best project management software combines all these tools into one centralized platform so that project managers only have to use one login to access them all.",
+  },
+   {
+    question: "How many phases are there in project management?",
+    answer:
+      "There are five phases in the project management life cycle: initiation, planning, execution, monitoring, and closure five phases of project management.",
+  
+  },
+];
+
 
   const shareUrl = typeof window !== "undefined" ? window.location.href : "";
   const shareTitle = "Best Project Management Software for 2025";
@@ -1091,25 +991,17 @@ export default function ProjectManagementPage() {
 
               {/* what are best project management tools */}
               <section id="best-pm-software">
-                {/* Common Heading */}
-                <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden p-6 sm:p-8 mb-6">
-                  <h1 className="text-3xl sm:text-4xl font-bold text-black mb-4">
-                    What is the best project management software?
-                  </h1>
-                  <p className="text-gray-700">
-                    Here are my top recommendations for project management
-                    software in 2025, each excelling in different use cases.
-                  </p>
-                </div>
+                <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 transition-shadow duration-300 overflow-hidden p-6 sm:p-8">
+                  {/* Header */}
+                  <header className="mb-8">
+                    <h1 className="text-3xl sm:text-4xl font-bold text-black mb-4">
+                      What is the best project management software?
+                    </h1>
+                  </header>
 
-                {/* Individual Tool Sections */}
-                {Object.entries(toolsContent).map(([toolKey, content]) => (
-                  <div
-                    key={toolKey}
-                    className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden p-6 sm:p-8 mb-8"
-                  >
-                    {/* Tool Heading with Logo */}
-                    <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-4 mb-6">
+                  {/* Sticky Heading */}
+                  <div className="sticky top-0 z-10 bg-white pb-6">
+                    <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-4">
                       <div className="flex items-center gap-4">
                         <Image
                           src={content.logo}
@@ -1129,99 +1021,316 @@ export default function ProjectManagementPage() {
                         {content.button.text}
                       </a>
                     </div>
+                  </div>
 
-                    {/* Rest of the tool content (scores, pros/cons, etc.) */}
-                    <div className="mt-10 space-y-4 mb-10">
-                      {content.scores.map((item, i) => (
-                        <div key={i}>
-                          <div className="flex justify-between text-black text-sm font-medium mb-1">
-                            <span>{item.label}</span>
-                            <span>{item.score}</span>
-                          </div>
-                          <div className="w-full bg-gray-100 rounded-full h-2">
-                            <div
-                              className="bg-green-600 h-2 rounded-full"
-                              style={{
-                                width: `${(parseFloat(item.score) / 5) * 100}%`,
-                              }}
-                            ></div>
-                          </div>
+                  {/* Scores */}
+                  <div className="mt-10 space-y-4 mb-10">
+                    {content.scores.map((item, i) => (
+                      <div key={i}>
+                        <div className="flex justify-between text-black text-sm font-medium mb-1">
+                          <span>{item.label}</span>
+                          <span>{item.score}</span>
                         </div>
-                      ))}
-                    </div>
-
-                    {/* Pros and Cons */}
-                    <div className="flex flex-col gap-6 mb-8">
-                      <div>
-                        <h3 className="text-xl text-black font-semibold mb-2">
-                          Pros
-                        </h3>
-                        <ul className="list-disc pl-5 text-black space-y-1">
-                          {content.pros.map((point, i) => (
-                            <li key={i}>{point}</li>
-                          ))}
-                        </ul>
+                        <div className="w-full bg-gray-100 rounded-full h-2">
+                          <div
+                            className="bg-green-600 h-2 rounded-full"
+                            style={{
+                              width: `${(parseFloat(item.score) / 5) * 100}%`,
+                            }}
+                          ></div>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="text-xl text-black font-semibold mb-2">
-                          Cons
-                        </h3>
-                        <ul className="list-disc pl-5 text-black space-y-1">
-                          {content.cons.map((point, i) => (
-                            <li key={i}>{point}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
+                    ))}
+                  </div>
 
-                    {/* Why I chose this tool */}
+                  {/* Pros and Cons */}
+                  <div className="flex flex-col gap-6 mb-8">
                     <div>
                       <h3 className="text-xl text-black font-semibold mb-2">
-                        Why I chose {content.title.split(":")[0]}
+                        Pros
                       </h3>
-                      <p className="text-black mb-4">{content.why.intro}</p>
-                      <ul className="list-disc pl-5 text-black space-y-1 mb-4">
-                        {content.why.bullets.map((item, i) => (
-                          <li key={i}>{item}</li>
+                      <ul className="list-disc pl-5 text-black space-y-1">
+                        {content.pros.map((point, i) => (
+                          <li key={i}>{point}</li>
                         ))}
                       </ul>
-                      <p className="text-black mb-6">{content.why.outro}</p>
-
-                      {/* Expandable Sections */}
-                      {Object.entries(content.why.extras).map(
-                        ([label, sectionContent]) => (
-                          <div key={label} className="border-t pt-4">
-                            <button
-                              onClick={() =>
-                                toggleSection(
-                                  `${toolKey}-${label}`,
-                                  `${toolKey}-${label}`
-                                )
-                              }
-                              className="w-full flex justify-between items-center text-black font-medium text-lg focus:outline-none"
-                            >
-                              <span>{label}</span>
-                              <span className="text-green-600 text-xl">
-                                {openSection === `${toolKey}-${label}` ? (
-                                  <Minus />
-                                ) : (
-                                  <Plus />
-                                )}
-                              </span>
-                            </button>
-                            {openSection === `${toolKey}-${label}` && (
-                              <div className="mt-2 text-black text-sm">
-                                {sectionContent}
-                              </div>
-                            )}
-                          </div>
-                        )
-                      )}
+                    </div>
+                    <div>
+                      <h3 className="text-xl text-black font-semibold mb-2">
+                        Cons
+                      </h3>
+                      <ul className="list-disc pl-5 text-black space-y-1">
+                        {content.cons.map((point, i) => (
+                          <li key={i}>{point}</li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
-                ))}
-              </section>
 
+                  {/* Why I chose monday.com */}
+                  <div>
+                    <h3 className="text-xl text-black font-semibold mb-2">
+                      Why I chose monday.com
+                    </h3>
+                    <p className="text-black mb-4">{content.why.intro}</p>
+                    <ul className="list-disc pl-5 text-black space-y-1 mb-4">
+                      {content.why.bullets.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
+                    </ul>
+                    <p className="text-black mb-6">{content.why.outro}</p>
+
+                    {/* Expandable Sections */}
+                    {[
+                      {
+                        label: "About monday.com",
+                        content: (
+                          <>
+                            <p className="text-black mb-4">
+                              monday.com is a cloud-based work operating system
+                              that helps teams manage tasks, projects, and
+                              workflows. It provides visual tools to plan,
+                              track, and collaborate, making it easier to stay
+                              organized and on schedule.
+                            </p>
+                            <p className="text-black">
+                              The platform is known for its flexibility,
+                              allowing users to customize their boards and
+                              processes for various use cases — from software
+                              development to HR and marketing.
+                            </p>
+                          </>
+                        ),
+                      },
+                      {
+                        label: "Key Features",
+                        content: (
+                          <>
+                            <h4 className="text-lg font-bold mb-2">
+                              Customizable workflows and boards
+                            </h4>
+                            <p className="text-black mb-4">
+                              With monday.com, you can fine-tune your workflows,
+                              views, and boards to align them with your
+                              project’s needs. This level of adaptability
+                              provides a well-organized visual representation of
+                              tasks and projects. It also simplifies workflow
+                              comprehension for stakeholders and helps project
+                              managers to easily identify bottlenecks and track
+                              progress.
+                            </p>
+                            <h4 className="text-lg font-bold mb-2">
+                              Automation capabilities
+                            </h4>
+                            <p className="text-black mb-4">
+                              monday.com’s no-code automation builder is quite
+                              intuitive; even those without technical expertise
+                              can easily set up automation rules. The platform
+                              also provides a variety of predefined automation
+                              recipes that cover common project management
+                              needs, such as:
+                            </p>
+                            <ul className="list-disc pl-5 text-black space-y-1 mb-4">
+                              <li>Sending email notifications.</li>
+                              <li>Updating item statuses.</li>
+                              <li>
+                                Creating new items based on specific triggers or
+                                customized automation rules.
+                              </li>
+                            </ul>
+                            <p className="text-black mb-4">
+                              By automating repetitive tasks, you can focus on
+                              the critical aspects of your work, thereby
+                              increasing overall productivity. Automation also
+                              helps maintain consistency in task management.
+                            </p>
+                            <h4 className="text-lg font-bold mb-2">
+                              Collaborative platform
+                            </h4>
+                            <p className="text-black">
+                              monday.com stands out as a collaboration and
+                              communication tool because of functionalities such
+                              as shared boards, commenting on tasks, sharing
+                              files, and updating statuses. Each task or item
+                              has its own conversation thread, allowing members
+                              to add updates, ask questions, and provide
+                              feedback directly. Having a definitive flow of
+                              communication encourages accountability, reduces
+                              miscommunication, and enhances team synergy.
+                            </p>
+                          </>
+                        ),
+                      },
+                      {
+                        label: "Pricing",
+                        content: (
+                          <>
+                            <p className="text-black mb-4">
+                              monday.com’s pricing can vary to scale with the
+                              team’s size, and the cost may adjust based on the
+                              number of seats required. The pricing structure
+                              below (except for the Free plan) is based on a
+                              team of three.
+                            </p>
+                            <p className="text-black mb-4">
+                              monday.com has a visually intuitive platform and
+                              offers a wide range of features. However, adding
+                              more users and requiring more advanced features
+                              for your business can become costly. monday.com’s
+                              pricing is suitable for mid-sized organizations,
+                              as its mid-tier plans balance features and
+                              usability.
+                            </p>
+                            <h4 className="text-lg font-bold mb-2">
+                              Free plan
+                            </h4>
+                            <ul className="list-disc pl-5 text-black mb-4">
+                              <li>Free forever with up to two seats.</li>
+                              <li>Includes basic features for personal use.</li>
+                            </ul>
+                            <h4 className="text-lg font-bold mb-2">
+                              Basic plan
+                            </h4>
+                            <ul className="list-disc pl-5 text-black mb-4">
+                              <li>
+                                $27 per month (three seats, billed annually).
+                              </li>
+                              <li>
+                                14-day free trial available, no credit card
+                                required.
+                              </li>
+                              <li>Prioritized customer support.</li>
+                              <li>5 GB file storage.</li>
+                              <li>Create a dashboard based on one board.</li>
+                            </ul>
+                            <h4 className="text-lg font-bold mb-2">
+                              Standard plan
+                            </h4>
+                            <ul className="list-disc pl-5 text-black">
+                              <li>
+                                $36 per month (three seats, billed annually).
+                              </li>
+                              <li>
+                                14-day free trial available, no credit card
+                                required.
+                              </li>
+                              <li>
+                                Includes Basic plan features, plus:
+                                <ul className="list-disc pl-5">
+                                  <li>Timeline, Calendar, and Gantt views.</li>
+                                  <li>Automations (250 actions per month).</li>
+                                  <li>Integrations (250 actions per month).</li>
+                                  <li>
+                                    Create a dashboard that combines five
+                                    boards.
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                            <h4 className="text-lg font-bold mb-2">Pro plan</h4>
+                            <ul className="list-disc pl-5 text-black">
+                              <li>
+                                $57 per month (three seats, billed annually).
+                              </li>
+                              <li>
+                                14-day free trial available, no credit card
+                                required.
+                              </li>
+                              <li>
+                                Includes Standard plan features, plus:
+                                <ul className="list-disc pl-5">
+                                  <li>
+                                    Automations (25,000 actions per month)
+                                  </li>
+                                  <li>
+                                    Integrations (25,000 actions per month).
+                                  </li>
+                                  <li>Time tracking.</li>
+                                  <li>Formula column.</li>
+                                  <li>
+                                    Create a dashboard that combines 10 boards.
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                            <h4 className="text-lg font-bold mb-2">
+                              Enterprise plan
+                            </h4>
+                            <ul className="list-disc pl-5 text-black">
+                              <li>Requires custom pricing.</li>
+
+                              <li>
+                                Includes Pro plan features, plus:
+                                <ul className="list-disc pl-5">
+                                  <li>
+                                    Enterprise-scale automations and
+                                    integrations.
+                                  </li>
+                                  <li>
+                                    Enterprise-grade security and governance.
+                                  </li>
+                                  <li>Multi-level permissions.</li>
+                                  <li>Enterprise support.</li>
+                                  <li>Advanced reporting and analytics.</li>
+                                  <li>
+                                    Create a dashboard that combines 50 boards.
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </>
+                        ),
+                      },
+
+                      {
+                        label: "Gallery",
+                        content: (
+                          <ul className="list-disc pl-5 text-black space-y-2">
+                            <li>
+                              Visually appealing interface with drag-and-drop
+                              features.
+                            </li>
+                            <li>
+                              Color-coded statuses for quick understanding.
+                            </li>
+                            <li>Expandable task cards with rich content.</li>
+                            <li>
+                              Clean dashboard layout with charts and metrics.
+                            </li>
+                          </ul>
+                        ),
+                      },
+                    ].map(({ label, content: sectionContent }) => (
+                      <div key={label} className="border-t pt-4">
+                        <button
+                          onClick={() => toggleSection(label, label)}
+                          className="w-full flex justify-between items-center text-black font-medium text-lg focus:outline-none"
+                        >
+                          <span>{label}</span>
+                          <span className="text-green-600 text-xl">
+                            {openSection === label ? <Minus /> : <Plus />}
+                          </span>
+                        </button>
+                        {openSection === label && (
+                          <div className="mt-2 text-black text-sm">
+                            {sectionContent}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+
+                    {/* Buttons */}
+                    <div className="flex flex-col sm:flex-row gap-4 mt-6">
+                      <button className="border border-green-600 text-green-600 px-6 py-2 rounded-full text-sm hover:bg-green-50">
+                        Read our full review
+                      </button>
+                      <button className="border border-green-600 text-green-600 px-6 py-2 rounded-full text-sm hover:bg-green-50">
+                        Submit your review
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </section>
               {/* find your prodoct management software */}
               <section
                 id="find-new-software"
@@ -1595,29 +1704,30 @@ export default function ProjectManagementPage() {
                     {faqData.map((item, index) => (
                       <div key={index} className="border-b border-gray-200">
                         {/* Question Button */}
-                        <button
-                          onClick={() => toggleItem(index)}
-                          className="w-full flex items-center justify-between py-6 sm:py-7 md:py-8 lg:py-9 text-left hover:bg-gray-50 transition-colors duration-200"
-                        >
-                          <h3 className="text-base sm:text-lg md:text-xl lg:text-xl font-semibold text-gray-700 leading-relaxed pr-4 sm:pr-6 md:pr-8">
-                            {item.question}
-                          </h3>
+                       <button
+  onClick={() => toggleItem(index)}
+  className="w-full flex items-center justify-between py-6 sm:py-7 md:py-8 lg:py-9 text-left hover:bg-gray-50 transition-colors duration-200"
+>
+  <h3 className="text-base sm:text-lg md:text-xl lg:text-xl font-semibold text-gray-700 leading-relaxed pr-4 sm:pr-6 md:pr-8">
+    {item.question}
+  </h3>
 
-                          {/* Plus/Minus Icon */}
-                          <div
-                            className={`flex-shrink-0 w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 rounded-md flex items-center justify-center transition-all duration-200 ${
-                              openItems[index]
-                                ? "bg-green-600 hover:bg-green-700"
-                                : "bg-green-600 hover:bg-green-700"
-                            }`}
-                          >
-                            {openItems[index] ? (
-                              <Minus className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
-                            ) : (
-                              <Plus className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
-                            )}
-                          </div>
-                        </button>
+  {/* Plus/Minus Icon */}
+  <div
+    className={`flex-shrink-0 w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 rounded-md flex items-center justify-center transition-all duration-200 ${
+      openItems[index]
+        ? "bg-green-600 hover:bg-green-700"
+        : "bg-green-600 hover:bg-green-700"
+    }`}
+  >
+    {openItems[index] ? (
+      <Minus className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
+    ) : (
+      <Plus className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
+    )}
+  </div>
+</button>
+
 
                         {/* Answer Content */}
                         {openItems[index] && (
