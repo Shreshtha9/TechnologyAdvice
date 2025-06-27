@@ -27,10 +27,10 @@ const Navbar = () => {
   // Software Reviews dropdown data
   const softwareReviews = {
     categories: [
-      { name: 'Human Resources Software', href: '/software-reviews/hr-software' },
+      { name: 'Human Resources Software', href: '/Software-reviews/HR-software' },
       { name: 'Payroll Software', href: '/Software-reviews/Payroll-software' },
       { name: 'CRM Software', href: '/Software-reviews/CRM-software' },
-      { name: 'Sales Software', href: '/software-reviews/sales-software' },
+      { name: 'Sales Software', href: '/Software-reviews/Sales-software' },
       { name: 'Project Management Software', href: '/Software-reviews/Project-management' },
       { name: 'Business Intelligence Software', href: '/Software-reviews/Business-Intelligence-Software' }
     ]
